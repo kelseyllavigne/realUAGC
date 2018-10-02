@@ -1,0 +1,138 @@
+body {
+  width: 80%;
+  margin: auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-image: url("sky.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  color: white;
+  text-align: right;
+  font-size: 12px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+    padding-top: 100px;
+    font-size: 3em;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+main h3, main h4 {
+  color: 30396D;
+  font-size: 1.5em;
+}
+
+main {
+  float: left;
+  width: 70%;
+  padding: 15px;
+}
+
+aside {
+  float: right;
+  width: 22%;
+}
+
+blockquote {
+  width: 40%;
+  margin: 25px auto;
+  border: 1px solid black;
+  padding: 40px;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+span {
+  display: block;
+  text-align: right;
+  font-style: italic;
+}
+
+.aside {
+  border-bottom: 2px solid #30396D;
+
+  margin-bottom: 10px;
+}
+
+.tags-list {
+  margin-left: -40px;
+}
+
+.tags {
+  border: 1px solid black;
+  display: inline-block;
+  list-style-type: none;
+  margin: 4px;
+  padding: 4px;
+}
+
+aside img {
+  border: 2px solid #30396D;
+  padding: 5px;
+  width: 90%;
+  height: auto;
+  margin: 10px;
+}
+
+footer {
+  clear: both;
+  background-color: #30396D;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer h3 {
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
+  color: white;
+  margin-left: -40px;
+}
+
+footer ul {
+  list-style-position: outside;
+}
+
+.social-media {
+  border: 1px solid white;
+  padding: 5px;
+  margin: 3px;
+  width: 250px;
+  text-align: center;
+  margin-left: -35px;
+}
