@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Assignment 12</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+       <section id="message">
+
+        </section>
+        <section class="inputs">
+          <form action="test.html" method="post">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+
+            <label for="timeZone">Time Zone</label>
+            <select id="timeZone">
+              <option value="1" selected></option>
+              <option value="1">Eastern</option>
+              <option value="1">Central</option>
+              <option value="1">Mountain</option>
+              <option value="1">Pacific</option>
+            </select>
+
+            <button type="submit" id="submit">Submit</button>
+            <button type="submit" id="reset">Reset</button>
+          </form>
+
+       </section>
+         <section class="control-panel">
+            <input type="button" value="Update Values" id="btnUpdate" />
+        </section>
+
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>
