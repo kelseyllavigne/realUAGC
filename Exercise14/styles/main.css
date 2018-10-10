@@ -6,3 +6,60 @@ body {
     width:500px;
     margin:20px auto;
 }
+
+input[type=text] {
+  padding: 3px;
+  margin: 5px;
+  margin-bottom: 15px;
+  width: 300px;
+  display: block;
+}
+
+input[type=password] {
+  padding: 3px;
+  margin: 5px;
+  margin-bottom: 15px;
+  width: 300px;
+  display: block;
+}
+
+select {
+  padding: 3px;
+  margin: 5px;
+  margin-bottom: 15px;
+  width: 300px;
+  display: block;
+}
+
+button {
+  margin: 10px;
+}
+
+#buttons {
+  display: block;
+}
+
+input[type=text].invalid{
+    border:1px solid red;
+    background-color: lightgray;
+}
+
+input[type=password].invalid{
+    border:1px solid red;
+    background-color: lightgray;
+}
+
+input[type=checkbox].invalid{
+    border:1px solid red;
+    background-color: lightgray;
+}
+
+select.invalid {
+  border:1px solid red;
+  background-color: lightgray;
+}
+
+#error {
+  color: red;
+  font-size: 1.2em;
+}
