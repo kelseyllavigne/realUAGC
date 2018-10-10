@@ -1,9 +1,5 @@
 function reset() {
-  //document.getElementById("form").reset();
-  //document.getElementById('email').value = "";
-  //document.getElementById('password').value.innerHTML = "";
-  //document.getElementById('timeZone').innerHTML = "1";
-  //document.getElementById('terms').innerHTML = "";
+  document.getElementById("form").reset();
 }
 
 function submit() {
@@ -44,7 +40,6 @@ function submit() {
     message.push("<li>" + "You must accept the terms and conditions" + "</li>");
   }
 
-  debugger;
   displayError = document.getElementById('error');
   var finalMessage = "";
   for (i=0; i<message.length; i++) {
@@ -58,7 +53,7 @@ function submit() {
 }
 
 document.getElementById("submit").addEventListener('click', submit);
-document.getElementById("reset").addEventListener('click', reset);
+document.getElementById("resetForm").addEventListener('click', reset);
 
 function getValue(id) {
     return getElm(id).value;
