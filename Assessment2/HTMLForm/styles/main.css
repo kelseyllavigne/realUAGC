@@ -125,3 +125,51 @@ ul {
     margin: 0 auto;
 }
 
+input[type=text].invalid{
+    border:1px solid red;
+    background-color: lightgray;
+}
+
+select.invalid {
+  border:1px solid red;
+  background-color: lightgray;
+}
+
+#error {
+  color: red;
+  font-size: .9em;
+}
+
+#message {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.form-submit-button {
+  margin: 20px auto;
+  margin-left: 80px;
+}
+
+.form-section {
+  display: block;
+  padding: 4px;
+  margin-bottom: 30px;
+}
+
+.form-input, select {
+  float: right;
+  width: 400px;
+  margin-left: 3px;
+  background-color: white;
+  height: 30px;
+}
+
+label {
+  float: left;
+  width: 125px;
+}
+
+/*form {
+  text-align: center;
+}*/

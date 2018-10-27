@@ -4,7 +4,7 @@
     <head>
         <title>Assessment 2</title>
         <style>
-       
+
         </style>
         <link rel="stylesheet" href="styles/main.css">
     </head>
@@ -12,20 +12,20 @@
     <body>
         <div class="input-group">
             <label for="firstName">First Name</label>
-            <input type="text" id="firstName" value="John" />
+            <input type="text" id="firstName" placeholder="John" name="firstName"/>
             <span class="errors">First Name is Required</span>
         </div>
         <div class="input-group">
             <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" value="Doe" />
+            <input type="text" id="lastName" placeholder="Doe" name="lastName"/>
             <span class="errors">Last Name is Required</span>
         </div>
         <div class="input-group">
             <label for="State">State</label>
-            <select name="" id="state" >
-                <option >AR</option>
-                <option  selected="selected">OK</option>
-                <option >MO</option>
+            <select name="state" id="state" >
+                <option value="AR">AR</option>
+                <option value="OK" selected="selected">OK</option>
+                <option value="MO">MO</option>
             </select>
         </div>
         <button id="btnMake">
