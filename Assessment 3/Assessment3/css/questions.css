@@ -1,0 +1,34 @@
+/*
+    Q1 - Write a media query for desktop first.  The break point needs to be at 960px;
+*/
+@media only screen and (max-width: 960px) {
+
+}
+
+/*
+    Q2 - Write a media query for mobile first.  The break point needs to be at 720px;
+*/
+@media only screen and (min-width: 720px) {
+
+}
+/*Is this what you're looking for? That instead of using max-width you'd use min-width and the order in which you list your queries? I feel like I've oversimplified the problem.*/
+
+/*
+    Q3 - What CSS property are you having the most trouble figuring out?
+*/
+/*
+Position. Ultimately I can get it, but I always feel like I'm guessing instead of understanding.
+I also don't always understand why when I change the position type, my whole page shifts in (what seems like but obviously isn't because #computers)
+unpredictable ways. Like I said, I ultimately find the right answer, and I do often understand, but there are plenty of times where I don't understand,
+or wish I had understood sooner so that I don't need to readjust all of my CSS.
+*/
+
+/*
+    Q4 - What is the best CSS property and why?
+*/
+/*
+Flexbox. Times a million. Doing all of this aligning work is work. But when you can use flexbox, it gets so easy. Not just easier, but outright
+easy most of the time. It cuts down on time and headaches when trying to create grids and grid-like structures. It is also a great entry-way into coding.
+It's one of those things that when you apply display: flex, you feel like a magician. It's important to have those moments as you are learning so that
+your experience isn't comprised too heavily of feeling like a little bit of a failure as you stumble through the learning process.
+*/
